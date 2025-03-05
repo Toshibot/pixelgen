@@ -1,4 +1,7 @@
 <script setup lang="ts">
+  import Profile from './components/Profile.vue';
+  import ContentItem from './components/Item.vue';
+  import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -17,6 +20,9 @@
 
 export default {
   components: {
+    Profile,
+    ContentItem,
+    Footer,
   },
   data() {
   }
