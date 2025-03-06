@@ -11,11 +11,9 @@
   </section>
 </template>
 <script lang="ts">
-import Detail from './Detail.vue'
 
 export default {
   components: {
-    Detail
   },
   props: {
     position: {

@@ -7,8 +7,7 @@
 <template>
   <body id="Body" class="t-dark">
     <main class="o-main u-vert-center">
-      <div class="logo"><span class="pixel">pixel</span>gen<span class="dot">.</span>au</div>
-      <div>coming soon</div>
+      <Profile/>
     </main>
   </body>
 </template>
