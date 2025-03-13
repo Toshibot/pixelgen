@@ -1,0 +1,19 @@
+{
+    "content_section": {
+        "id": "id",
+        "section_title": "Section Title",
+        "section_subtitle": "Section Sub-title",
+        "year": "2021-2024",
+        "intro": "",
+        "color": "",
+        "bg_color": "#e5e0d7",
+        "detail": {
+          "sub_title_1": "Sub-title 1",
+          "sub_title_2": "Sub-title 2",
+          "eg_img_1": "img/eg1.jpg",
+          "eg_img_2": "img/eg2.jpg",
+          "content_1": "Content 1",
+          "content_2": "Content 2"
+        }
+    }
+}
