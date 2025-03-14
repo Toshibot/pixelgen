@@ -16,6 +16,7 @@
 
 </style>
 <script lang="ts">
+import axios from 'axios';
 
 export default {
   components: {
@@ -24,6 +25,15 @@ export default {
     Footer,
   },
   data() {
+    return {
+      contentData: []
+    }
+  },
+  mounted() {
+    axios.get('./data/content-items.json')
+    .then(response => {
+      this.contentData = response.data;
+    })
   }
 }
 </script>
